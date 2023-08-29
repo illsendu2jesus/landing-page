@@ -1,0 +1,36 @@
+
+*{
+    border:1px solid red;
+}
+
+.main{
+    height:500px;
+    background-color: white;   
+}
+
+.header{
+    display:flex;
+    gap:36px;
+    list-style-type: none;
+    align-items: center;
+    width:80%;
+    margin: 20px auto;
+    padding: 0 10px;
+    
+}
+
+/*.header li{
+    width:200px;
+    flex-shrink: 1;
+}*/
+
+#logo{
+    margin-right: auto;
+}
+
+#logo img{
+    max-width:120px;
+    height:auto;
+    border-radius: 50%;
+
+}
