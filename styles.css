@@ -1,11 +1,21 @@
 
+/*
 *{
     border:1px solid red;
-}
+}*/
 
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    color:#f9faf8;
+    margin: 0;
+}
 .main{
-    height:500px;
-    background-color: white;   
+    /*height:500px;*/
+    background-color: #1f2937;
+    padding: 10px 0 20px;  
 }
 
 .header{
@@ -13,9 +23,9 @@
     gap:36px;
     list-style-type: none;
     align-items: center;
-    width:80%;
-    margin: 20px auto;
-    padding: 0 10px;
+    width:65%;
+    margin: 0px auto 36px;
+    padding:  10px;
     
 }
 
@@ -26,11 +36,75 @@
 
 #logo{
     margin-right: auto;
+    font-size: 24px;
 }
-
+/*
 #logo img{
     max-width:120px;
     height:auto;
     border-radius: 50%;
 
+}*/
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto 50px;
+    /*border:2px solid red;*/
+}
+
+.img_placeholder{
+    width:500px;
+    height:300px;
+    background-color: gray;
+}
+.text{
+    width:40%;
+    flex-shrink: 0;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+.text button{
+    background-color: blue;
+    color: #f9faf8;
+    border-radius: 10px;
+    border:none;
+    padding:8px 16px;
+}
+
+.info{
+    color:#1f2937
+}
+
+.info h1{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.photos{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 36px;
+    justify-content: space-evenly;
+}
+
+.photos .photo{
+    width:200px;
+    height: 290px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    text-align: center;
+}
+.photos .photo .image{
+    border:3px solid blue;
+    flex-grow: 1; 
+    border-radius: 10px;
 }
