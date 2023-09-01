@@ -11,6 +11,7 @@ body{
     font-family: 'Roboto',sans-serif;
     color:#f9faf8;
     margin: 0;
+    
 }
 .main{
     /*height:500px;*/
@@ -97,7 +98,6 @@ h1{
 .photos .photo{
     width:200px;
     height: 290px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 0px 5px;
@@ -107,4 +107,27 @@ h1{
     border:3px solid blue;
     flex-grow: 1; 
     border-radius: 10px;
+}
+
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 26px 0;
+    margin: 120px 0;
+   
+    
+
+}
+.wisdom{
+    width:50%;
+    margin:70px auto;
+    font-size: 26px;
+    font-style: italic;
+    padding: 20px;
+    font-weight: lighter;
+    
+}
+
+.author{
+    margin-left: 70%;
 }
