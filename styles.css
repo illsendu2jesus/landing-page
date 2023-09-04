@@ -1,7 +1,7 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
+   /* margin:  0;*/
 }
 
 body{
@@ -27,39 +27,42 @@ body{
     
 }
 
-/*.header li{
-    width:200px;
-    flex-shrink: 1;
-}*/
 
 #logo{
     margin-right: auto;
-    font-size: 24px;
+    font-size: 28px;
+    font-style: oblique;
+    font-weight: bolder;
 }
-/*
-#logo img{
-    max-width:120px;
-    height:auto;
-    border-radius: 50%;
 
-}*/
+a{
+    text-decoration: none;
+    color:white;
+}
+
 
 .content{
     display: flex;
     justify-content: space-between;
     width: 65%;
     margin: 0 auto 50px;
-    /*border:2px solid red;*/
+    
 }
 
 .img_placeholder{
-    width:500px;
-    height:300px;
-    background-color: gray;
+    width:fit-content;
+    height:350px;
 }
+
+img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
 .text{
     width:40%;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
 }
 
 h1{
@@ -95,19 +98,19 @@ h1{
 }
 
 .photos .photo{
-    width:200px;
-    height: 290px;
+    width:fit-content;
+    height: auto;
     display: flex;
     flex-direction: column;
     padding: 0px 5px;
     text-align: center;
+    /*border:2px solid black;*/
 }
 .photos .photo .image{
-    border:3px solid blue;
+    border:3px solid #3882f6;
     flex-grow: 1; 
     border-radius: 10px;
 }
-
 
 .quote{
     background-color: #e5e7eb;
@@ -125,11 +128,10 @@ h1{
     padding: 20px;
     font-weight: lighter;
     
-    
 }
 
 .author{
-    margin-left: 70%;
+    text-align: end;
 }
 
 .action{
@@ -145,16 +147,13 @@ h1{
 
 }
 
-.action .text{
-    flex-grow: 0;
-}
 
 p.bold{
     font-weight:900;
     font-size: large;
 }
 
- button{
+button{
     color:#f9faf8;
     font-size: 14px;
     background-color: #3882f6;
